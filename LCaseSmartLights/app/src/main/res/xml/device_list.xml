@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order_light">
+        <item>大厅灯̨</item>
+        <item>客厅灯̨</item>
+        <item>吊灯̨</item>
+        <item>小灯̨</item>
+        <item>洗手间灯̨</item>
+        <item>厕所灯̨</item>
+        <item>浴室灯̨</item>
+        <item>厨房灯̨</item>
+        <item>餐厅灯̨</item>
+        <item>阳台灯̨</item>
+        <item>射灯̨</item>
+        <item>廊灯̨</item>
+        <item>走廊灯̨</item>
+        <item>过道灯̨</item>
+        <item>我的灯̨</item>
+        <item>卧室灯̨</item>
+        <item>房间灯̨</item>
+        <item>主卧灯̨</item>
+        <item>次卧灯̨</item>
+        <item>次卧二的灯̨</item>
+        <item>次卧三的灯̨</item>
+        <item>次卧四的灯̨</item>
+        <item>台灯̨</item>
+        <item>书桌灯̨</item>
+        <item>左台灯̨</item>
+        <item>右台灯̨</item>
+        <item>床头灯̨</item>
+    </string-array>
+    <string-array name="order_tv">
+    <item>央视一套频道̨</item>
+    <item>央视二套频道̨</item>
+    <item>央视三套频道̨</item>
+    <item>央视四套频道̨</item>
+    <item>央视五套频道̨</item>
+    <item>央视六套频道̨</item>
+    <item>央视七套频道̨</item>
+    <item>央视八套频道̨</item>
+    <item>央视九套频道̨</item>
+    <item>央视新闻频道̨</item>
+    <item>央视体育频道̨</item>
+    <item>央视音乐频道̨</item>
+    <item>央视综艺频道̨</item>
+    <item>央视中文国际频道̨</item>
+    <item>央视少儿频道̨</item>
+    <item>央视音乐频道̨</item>
+    <item>减小音量̨</item>
+    <item>增加音量̨</item>
+    <item>减小声音̨</item>
+    <item>增加声音̨</item>
+    <item>大声点̨</item>
+    <item>小声点̨</item>
+    <item>上一节目源̨</item>
+    <item>下一节目源̨</item>
+</string-array>
+</resources>    

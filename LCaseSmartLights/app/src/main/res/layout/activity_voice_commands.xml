@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="一、软件语音使用指南"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="用户使用语音指令的时候，可以唤醒语音助手，发出指令。\n\n比如用户呼唤“小开心”， 语音助手“小开心”就会响应，然后用户说“打开客厅灯”，即可把客厅灯打开，免去了按键的麻烦。\n\n如果用户不使用唤醒词“小开心”，比如在户外的场合，可以把语音唤醒设置里，指定wifi才打开，可以避免人多时错误唤醒语音助手，这时需要用户单击麦克风按钮，然后说出语音指令“打开客厅灯”，也可以把客厅灯打开。"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="二、灯具控制指令"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="打开浴室灯 关闭浴室灯  开浴室灯 关浴室灯 打开餐厅灯 关闭餐厅灯  开餐厅灯 关餐厅灯\n\n ...吊灯  ...射灯  ...床头灯  ...书桌灯  ...客厅灯  ...餐厅灯  ...主卧灯  ...次卧灯 ...浴室灯  ...壁灯  ...厨房灯  ...廊灯  ...阳台灯  ...风扇  ...排气扇 \n\n打开吊灯一 关闭吊灯一 开吊灯一 关吊灯一...射灯一  ...床头灯一  ...书桌灯一  ...客厅灯一  ...餐厅灯一  ...主卧灯一...次卧灯一  ...浴室灯一  ...壁灯一  ...厨房灯一  ...廊灯一  ...阳台灯一\n\n 打开吊灯二 关闭吊灯二 开吊灯二 关吊灯二...射灯二  ...床头灯二  ...书桌灯二  ...客厅灯二  ...餐厅灯二...主卧灯二  ...次卧灯二  ...浴室灯二  ...壁灯二  ...厨房灯二  ...廊灯二...阳台灯二 \n\n ...吊灯三  ...射灯三  ...床头灯三  ...书桌灯三  ...客厅灯三  ...餐厅灯三  ...主卧灯三...次卧灯三  ...浴室灯三  ...壁灯三  ...厨房灯三  ...廊灯三  ...阳台灯三\n\n..吊灯四  ...射灯四  ...床头灯四  ...书桌灯四  ...客厅灯四  ...餐厅灯四  ...主卧灯四  ...次卧灯四  ...浴室灯四  ...壁灯四  ...厨房灯四  ...廊灯四  ...阳台灯四  "
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="三、专属设备指令参考"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="专属设备指令是为了让指令简单化，例如：\n打开我的灯/关闭我的灯/打开灯/关闭灯/开灯/关灯\n       主卧拥有者会默认打开或关闭主卧灯\n       次卧一拥有者会默认打开或关闭次卧一灯\n       次卧二拥有者会默认打开或关闭次卧二灯\n       这里的主卧灯、次卧灯指的是卧室里主要照明的灯。\n 打开我的台灯   会打开专属设备（指定卧室分组）里的台灯\n打开我的床头灯 会打开专属设备（指定卧室分组）的床头灯。\n...浴室灯 (主卧可能拥有独立洗手间)\n ...风扇 (卧室风扇)\n ...排气扇 (卧室排气扇)\n...床头灯\n ...书桌灯\n...壁灯\n...吊灯"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="四、场景控制指令"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="回家： 我要回家\n睡觉： 我要睡觉\n离家： 我要离家\n就餐： 我要就餐、我要去吃饭\n回房： 我要回房\n离房： 我要离房\n会客： 我要见客人\n影院： 我要看电影\n会客： 我要见客人\n起床： 我要起来了\n起夜： 我要起夜了\n影院： 我要看电影\n全开： 打开全部灯、打开所有灯 (会控制有权限的所有灯)\n全关： 关闭全部灯、关闭所有灯 (会控制有权限的所有灯)"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="五、电视频道控制指令"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用打开、转到、调到、换到等指令，可以跳转到以下频道，比如打开中央一台，或者是调到中央一台，视频会跳转到中央一台。"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="1.央视系列\n中央一台、央视一套\n中央二台、央视二套\n中央三台、央视三套\n中央四台、央视四套\n中央五台、央视五套\n中央六台、央视六套\n中央七台、央视七套\n中央八台、央视八套\n中央九台、央视九套\n中央十台、央视十套\n中央十一台、央视十一套\n中央十二台、央视十二套\n央视少儿台\n体育赛事频道"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text=" 2.省会频道：\n北京卫视台  天津卫视台  东方卫视台  湖南卫视台  浙江卫视台  江苏卫视台山东卫视台  广东卫视台  深圳卫视台  湖北卫视台  河北卫视台  福建东南卫视台 福建海峡卫视台  黑龙江卫视台  辽宁卫视台  江西卫视台  陕西卫视台  重庆卫视台 广西卫视台  内蒙古卫视台 海南旅游卫视台  云南卫视台  贵州卫视台  青海卫视台 宁夏卫视台  甘肃卫视台  吉林卫视台  西藏卫视台  新疆卫视台  新疆兵团卫视台 福建厦门卫视台  福建海峡卫视台  广东南方卫视台  广东珠江卫视台  陕西农林卫视台  海南三沙卫视台"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="3.央视频道：\n 中国交通   央视新闻  央视音乐  国防军事  女性时尚  央视精品  央视台球  电视指南  第一剧场  怀旧剧场  高尔夫网球  风云音乐  风云足球  世界地理 风云剧场  证券资讯  发现之旅  央视四套欧  央视四套美  央视新科动漫 央视西语频道  央视法语频道  央视俄语频道  央视阿语频道  央视中学生 健康卫视台"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="4.北上广深频道：\n北京文艺频道  北京科教频道  北京影视频道  北京财经频道  北京体育频道 北京生活频道  北京青年频道  北京新闻频道  北京纪实频道\n上海新闻综合  上海电视剧  东方电影频道  上海五星体育  上海艺术人文 上海娱乐频道  上海纪实频道  上海星尚频道  上海外语频道  上海教育频道\n广东国际频道  广东新闻频道  广东公共频道  广东体育频道  广东经济科教台\n广东综艺频道  广东影视频道  广东少儿频道  广东现代教育  广东房产频道  广东会展频道\n深圳都市频道  深圳电视剧频道  深圳体育健康台  深圳财经生活台  深圳娱乐频道
+  深圳公共频道  深圳少儿频道  深圳法治频道\n广州综合频道  广州新闻频道  广州影视频道  广州竞赛频道  广州经济频道 广州少儿频道  广州生活频道"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

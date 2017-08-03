@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_vice_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.com.lcase.app.ui.AddViceUserActivity">
+    
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="117dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rq_code" />
+
+    <TextView
+        android:text="在APP注册页面扫描此二维码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rq_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/text_color"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="注册成为副账户,副账户上限数为4个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:textColor="@color/text_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView5" />
+</RelativeLayout>

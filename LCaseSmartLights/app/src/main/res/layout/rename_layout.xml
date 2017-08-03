@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog1_bg"
+    android:minHeight="290dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="重命名设备"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@color/line_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll_fenzu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/search_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_group_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusable="false"
+            android:hint="请选择设备"
+            android:textColor="@color/text_color"
+            android:textSize="13sp" />
+        <!--
+                <ImageView
+                    android:id="@+id/img_down"
+                    android:layout_width="14dp"
+                    android:layout_height="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@mipmap/down" />-->
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/taideng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/diaodeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/shedeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/chuangtoudeng_selecto"
+            android:button="@null" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/shuzhuodeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ketingdeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/cantingdeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/zhuwodeng_selecto"
+            android:button="@null" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ciwodeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/yushideng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bideng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/chufangdeng_selecto"
+            android:button="@null" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/langdeng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio14"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/yangtaideng_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio15"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/dianshi_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio16"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/paiqishan_selecto"
+            android:button="@null" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radio17"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/weimingming_selecto"
+            android:button="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="102dp"
+            android:layout_height="31dp"
+            android:background="@drawable/button_selector"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="102dp"
+            android:layout_height="31dp"
+            android:background="@drawable/button_selector"
+            android:text="确认"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

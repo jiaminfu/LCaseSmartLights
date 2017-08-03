@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_television"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    android:orientation="vertical"
+    tools:context="cn.com.lcase.app.ui.TelevisionActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f7f7"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:orientation="horizontal"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp">
+
+            <ImageView
+                android:id="@+id/fanhui_imageView"
+                android:layout_width="59dp"
+                android:layout_height="53dp"
+                android:src="@mipmap/fanhui" />
+
+            <ImageView
+                android:id="@+id/kaiguan_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:src="@mipmap/kaiguan" />
+
+            <ImageView
+                android:id="@+id/jingyin_imageView"
+                android:layout_width="59dp"
+                android:layout_height="53dp"
+                android:src="@mipmap/jingyin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="54dp"
+                android:background="@drawable/left_bg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/jia_voice"
+                    android:layout_width="62dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="13dp"
+                    android:paddingLeft="21dp"
+                    android:paddingRight="21dp"
+                    android:paddingTop="13dp"
+                    android:src="@mipmap/jia" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="7dp"
+                    android:text="音量"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/jian_voice"
+                    android:layout_width="62dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="13dp"
+                    android:paddingLeft="21dp"
+                    android:paddingRight="21dp"
+                    android:paddingTop="13dp"
+                    android:src="@mipmap/jian" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/zhuye_iv"
+                android:layout_width="0dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@mipmap/shouye" />
+
+            <LinearLayout
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="53dp"
+                android:background="@drawable/left_bg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/up_channel"
+                    android:layout_width="62dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="13dp"
+                    android:paddingLeft="21dp"
+                    android:paddingRight="21dp"
+                    android:paddingTop="13dp"
+                    android:src="@mipmap/up" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="7dp"
+                    android:text="频道"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/down_channel"
+                    android:layout_width="62dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="13dp"
+                    android:paddingLeft="21dp"
+                    android:paddingRight="21dp"
+                    android:paddingTop="13dp"
+                    android:src="@mipmap/yaokong_down" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/ll_top"
+        android:background="#c0c0c0" />
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@mipmap/fangxiangpan">
+
+        <ImageView
+            android:id="@+id/img_shang"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:src="@mipmap/shang" />
+
+        <ImageView
+            android:id="@+id/img_xia"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignLeft="@+id/img_shang"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/img_shang"
+            android:padding="10dp"
+            android:src="@mipmap/xia" />
+
+        <ImageView
+            android:id="@+id/img_you"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@mipmap/zuo" />
+
+        <ImageView
+            android:id="@+id/img_zuo"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/img_you"
+            android:padding="10dp"
+            android:src="@mipmap/you" />
+
+        <ImageView
+            android:id="@+id/img_ok"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ok" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/wave1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/wave2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/wave3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/img_voice"
+        android:layout_width="51dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:src="@mipmap/microphone" />
+
+</RelativeLayout>

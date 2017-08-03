@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_bg" />
+        <ImageView
+            android:id="@+id/img_id"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/diaodeng"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:id="@+id/tv_fenzu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="【主卧】"
+            android:textColor="#666"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/child_check"
+            android:layout_width="46dp"
+            android:focusable="false"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:background="@android:color/transparent"
+            android:button="@drawable/toggle_btn"
+            android:checked="true"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="吊灯"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:layout_alignTop="@+id/img_id"
+            android:layout_toRightOf="@+id/img_id"
+            android:layout_toEndOf="@+id/img_id"
+            android:layout_marginStart="16dp"
+            />
+    <View
+        android:id="@+id/line"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_bg" />
+    </RelativeLayout>

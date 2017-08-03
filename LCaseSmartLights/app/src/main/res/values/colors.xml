@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme_color">#4DA0D8</color>
+    <color name="white">#fff</color>
+    <color name="actionbar_pressed">#63ffffff</color>
+    <color name="layout_pressed">#33ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="no_press">#AAAAAA</color>
+    <color name="text_color">#333333</color>
+    <color name="text_hint_color">#666666</color>
+    <color name="line_bg">#dfdfdf</color>
+    <color name="home_bg">#f8f8f8</color>
+</resources>

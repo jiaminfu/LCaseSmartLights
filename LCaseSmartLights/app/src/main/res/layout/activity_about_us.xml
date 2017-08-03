@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    tools:context="cn.com.lcase.app.ui.AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:layout_width="212dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/corporate_logo"
+            android:id="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:text="当前版本1.0"
+            android:id="@+id/tv_version"
+            android:layout_below="@+id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="34dp"
+            android:layout_marginTop="38dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/layout_email"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:paddingRight="12dp"
+        android:layout_height="46dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/email" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="联系邮箱"
+                android:textColor="@color/text_hint_color"
+                android:textSize="15sp" />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textColor="#999"
+            android:textSize="15sp" />
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_bg" />
+    <LinearLayout
+        android:id="@+id/layout_phone"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:paddingRight="12dp"
+        android:layout_height="46dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/kefu" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="客服电话"
+                android:textColor="@color/text_hint_color"
+                android:textSize="15sp" />
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textColor="#999"
+            android:textSize="15sp" />
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_bg" />
+    <LinearLayout
+        android:id="@+id/layout_qrcode"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:paddingRight="12dp"
+        android:layout_height="46dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/weixin"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="公众号"
+                android:textColor="@color/text_hint_color"
+                android:textSize="15sp" />
+        <TextView
+            android:id="@+id/public_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textColor="#999"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/QRCode"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_bg" />
+
+</LinearLayout>

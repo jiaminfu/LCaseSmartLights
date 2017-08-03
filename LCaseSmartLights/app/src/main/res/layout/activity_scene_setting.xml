@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scene_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context="cn.com.lcase.app.ui.SceneSettingActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:id="@+id/img_scene"
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/huijia" />
+
+            <TextView
+                android:id="@+id/name_scene"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="回家"
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_bg" />
+
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:layout_marginTop="6dp"
+            android:background="#f8f8f8"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_logout"
+            android:layout_below="@+id/linearLayout" />
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="41dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_background"
+        android:text="保存" />
+</RelativeLayout>

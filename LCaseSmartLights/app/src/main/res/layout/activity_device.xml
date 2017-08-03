@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="cn.com.lcase.app.ui.DeviceActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="14dp"
+            android:layout_weight="2"
+            android:background="@drawable/search_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@mipmap/search" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="搜索设备"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textSize="13sp" />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/img_delete"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/delete"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fenzu"
+            android:layout_width="101dp"
+            android:layout_height="30dp"
+            android:background="@drawable/search_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_group"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="全部"
+                android:paddingLeft="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/img_down"
+                android:layout_width="14dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="13dp"
+                android:src="@mipmap/down" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img_voice"
+        android:layout_below="@+id/ll_title"
+        android:background="@color/home_bg"
+        android:orientation="vertical"
+        android:scrollbars="none"/>
+    <RelativeLayout
+        android:id="@+id/no_search_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/img_voice"
+        android:layout_below="@+id/ll_title"
+        android:background="@color/home_bg">
+        <ImageView
+            android:id="@+id/no_search"
+            android:layout_width="96dp"
+            android:layout_height="165dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/no_search" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="暂无设备"
+            android:textColor="#999"
+            android:textSize="30sp"
+            android:layout_below="@+id/no_search"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="当前暂无设备，请点击图片重新加\n           载，或者去添加设备"
+            android:textColor="#999"
+            android:textSize="15sp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/wave1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/wave2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/wave3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/img_voice"
+        android:layout_width="51dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:src="@mipmap/microphone" />
+</RelativeLayout>

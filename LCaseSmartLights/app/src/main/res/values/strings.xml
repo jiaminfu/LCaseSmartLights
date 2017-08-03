@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LCase智能</string>
+    <string name="ok">确认</string>
+    <string name="infor">提示</string>
+    <string name="device_count">共%d个设备</string>
+    <!-- 请替换成在语音云官网申请的appid 官方例子 581ff529 lcase测试 57eb6985-->
+    <!--<string name="app_id">58ca2e68</string>-->
+   <!-- <string name="app_id">58febf4e</string>-->
+    <string name="app_id">5975adfc</string>
+</resources>
+

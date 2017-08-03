@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exclusive_equipment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.com.lcase.app.ui.ExclusiveEquipmentActivity">
+
+    <TextView
+        android:id="@+id/zhiling"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dp"
+        android:text="语音指令参考"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_bg" />
+
+    <ExpandableListView
+        android:id="@+id/m_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

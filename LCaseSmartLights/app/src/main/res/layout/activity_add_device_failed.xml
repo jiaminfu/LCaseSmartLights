@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_device_failed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.com.lcase.app.ui.AddDeviceFailedActivity">
+
+
+    <ImageView
+        android:id="@+id/no_search"
+        android:layout_width="96dp"
+        android:layout_height="165dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:src="@mipmap/no_search" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请确认设备已连接上家庭wifi"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/no_search"
+        android:layout_marginTop="45dp"
+        android:text="未检测到新设备..."
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/login_background"
+        android:text="确定"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

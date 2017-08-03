@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_desk_lamp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="cn.com.lcase.app.ui.DeskLampActivity">
+    <!--   <com.dalong.francyconverflow.FancyCoverFlow
+           android:id="@+id/fancyCoverFlow"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_centerVertical="true"
+           />-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_show"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/wave1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/wave2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/wave3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@mipmap/wave" />
+
+    <ImageView
+        android:id="@+id/img_voice"
+        android:layout_width="51dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:src="@mipmap/microphone" />
+</RelativeLayout>

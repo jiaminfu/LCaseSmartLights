@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_device"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.com.lcase.app.ui.AddDeviceActivity">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:indicator="BallSpinFadeLoader"
+        app:indicator_color="@color/theme_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:id="@+id/AVLoadingIndicatorView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/text_color"
+        android:text="请确认设备已连接上家庭wifi"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/text_color"
+        android:text="检索新增设备中..."
+        android:layout_marginTop="81dp"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/AVLoadingIndicatorView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+</RelativeLayout>

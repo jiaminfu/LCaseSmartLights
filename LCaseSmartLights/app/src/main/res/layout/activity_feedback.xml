@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:padding="10dp"
+    tools:context="cn.com.lcase.app.ui.FeedbackActivity">
+<EditText
+    android:id="@+id/et_feedback"
+    android:layout_width="match_parent"
+    android:textSize="15sp"
+    android:gravity="start"
+    android:padding="20dp"
+    android:textColor="@color/text_color"
+    android:textColorHint="#999"
+    android:hint="您的意见对我们来说很重要，多谢您对我们产品的支持..."
+    android:background="@color/white"
+    android:layout_height="250dp" />
+
+</RelativeLayout>

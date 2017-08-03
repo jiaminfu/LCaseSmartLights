@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/transparent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="修改"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:textColor="@color/theme_color"
+        android:textSize="15sp"
+        android:id="@+id/change" />
+
+    <Button
+        android:text="删除"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:textColor="@color/theme_color"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/delete" />
+
+    <Button
+        android:text="取消"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="#999999"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/cancel" />
+</LinearLayout>
